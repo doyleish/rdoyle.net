@@ -1,0 +1,102 @@
+* {
+    color: #002b36;
+    background-color: #eee8d5; 
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #002b36;
+    color: #586e75;
+    border: 1px solid #eee8d5;
+	border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+hg {
+    font-family: 'Courier New', monospace;
+    background-color: #002b36;
+    color: #859900;
+}
+
+hb {
+    font-family: 'Courier New', monospace;
+    background-color: #002b36;
+    color: #268bd2;
+}
+
+
+hc {
+    font-family: 'Courier New', monospace;
+    background-color: #002b36;
+    color: #2aa198;
+}
+
+.sidebar {
+    background-color: #002b36;
+    display: inline-block;
+    width: 325px;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.sidebar-title {
+    background-color: #002b36;
+    color: #eee8d5; 
+    text-align: center;
+    vertical-align: middle;
+    
+    display: block;
+    
+    font-size: 42px;
+    width: 100%;
+    margin: 2px 0 0 0;
+    padding: 52px 0;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.sidebar-separate {
+    background-color: #484848;
+    
+    display: block;
+    
+    margin: 5px 1px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.sidebar-entry {
+    background-color: #002b36;
+    color: #eee8d5; 
+    text-align: center;
+    vertical-align: middle;
+    
+    display: block;
+    
+    font-size: 24px;
+    width: 100%;
+    padding: 6px 0;
+    height: 40px;
+    border-radius: 2px;
+    transition: 150ms;
+}
+
+.sidebar-entry:hover {
+    background-color: #484848;
+    background-image: none;
+}
+
+.content {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+}

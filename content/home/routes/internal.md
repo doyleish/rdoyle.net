@@ -1,2 +1,0 @@
-##Internal Apps
-###[Authenticate](/s)
